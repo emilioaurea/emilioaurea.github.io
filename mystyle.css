@@ -2,3 +2,8 @@
 .img-responsive {
     margin: 0 auto;
 }
+
+/* Give some border around the edges. */
+body {
+    margin-top: 60px;
+}
