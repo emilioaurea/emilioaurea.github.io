@@ -9,22 +9,45 @@
 </head>
 <body>
 <div class="container-fluid">
+  
+  <!-- First thing people see. -->
   <header>
     <h1 class="text-primary text-center">Emilio Aurea</h1>
   </header>
+  
+  <!-- Handly little nav at the top in HTML5. -->
   <nav>
     <ul class="nav nav-tabs" role="tablist">
-      <li><a>About Me</a></li>
-      <li><a>Projects</a></li>
-      <li><a>Work Experience</a></li>
+      <li><a href="#me">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#work">Work Experience</a></li>
+      <li><a href="#contact">Contact Info</a></li>
     </ul>
   </nav>
+  
+  <!-- This is the about me portion. -->
   <section class="bg-info">
+    <h2 id="me">About me</h2>
     <p>Hello World! My name is Emilio Aurea. I am currently studying Computer Science at beautiful UC Berkeley. In my spare time,
     I like to learn new frameworks, languages, and hack on cool projects. I also love basketball and I'm a huge Stephen Curry fan --
     GO WARRIORS! Hope you enjoy this webpage I've built and feel free to connect with me! Did I mention I have an adorable 3-year-
     old son? </p>
   </section>
+  
+  <!-- This is the portfolio sections. -->
+  <section class="bg-success">
+    <h2 id="projects">Projects</h2>
+  </section>
+  
+  <!-- Work Experience or lack thereof. -->
+  <section class="bg-warning">
+    <h2 id="work">Work Experience</h2>
+  </section>
+  
+  <!-- Contact info. -->
+  <footer>
+    <p id="contact">This page was made by Emilio Aurea using Bootstrap.</p>
+  </footer>
 </div>
 </body>
 </html>
