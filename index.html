@@ -28,11 +28,17 @@
   <!-- This is the about me portion. -->
   <section class="bg-info">
     <h2 id="me">About me</h2>
-    <p>Hello World! My name is Emilio Aurea. I am currently studying Computer Science at beautiful UC Berkeley. In my spare time,
-    I like to learn new frameworks, languages, and hack on cool projects. I also love basketball and I'm a huge Stephen Curry fan --
-    GO WARRIORS! Hope you enjoy this webpage I've built and feel free to connect with me! Did I mention I have an adorable 3-year-
-    old son? </p>
-    <img src="emilio_and_jace.jpg" alt="A father and his son." class="image-responsive">
+    <div class="row">
+      <div class="col-xs-6">
+        <img src="emilio_and_jace.jpg" alt="A father and his son." class="img-responsive" width="300" height="450">
+      </div>
+      <div class="col-xs-6 col-md-4 text-center">
+        <p style="font-size:20px">Hello World! My name is Emilio Aurea. I am currently studying Computer Science at beautiful UC Berkeley. In my spare time,
+        I like to learn new frameworks, languages, and hack on cool projects. I also love basketball and I'm a huge Stephen Curry fan --
+        GO WARRIORS! Hope you enjoy this webpage I've built and feel free to connect with me! Did I mention I have an adorable 3-year-old son?
+        </p>
+      </div>
+    </div>
   </section>
   
   <!-- This is the portfolio sections. -->
@@ -47,8 +53,30 @@
   
   <!-- Contact info. -->
   <footer class="bg-danger">
-    <p id="contact">This page was made by Emilio Aurea using Bootstrap.</p>
-    
+    <h2 id="contact">Contact Info</h2>
+    <p>This page was made by Emilio Aurea using Bootstrap.
+      Reach out to me through the following:
+    </p>
+
+    <!-- Social Media Buttons/Links. -->
+    <div class="row">
+    <div class="col-xs-6">
+      <h4>Social</h4>
+      <div class="well" id="left-well">
+        <a href="https://www.facebook.com/people/Emilio-Aurea/100005920546247" class="btn btn-info" role="button" id="facebook" target="_blank">Facebook</a>
+        <a href="https://twitter.com/emilioaurea?lang=en" class="btn btn-info" role="button" id="twitter" target="_blank">Twitter</a>
+        <a href="https://www.hackerrank.com/emilioaurea" class="btn btn-info" role="button" id="hackerrank" target="_blank">HackerRank</a>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <h4>Professional</h4>
+      <div class="well" id="right-well">
+        <a href="https://github.com/emilioaurea" class="btn btn-info" role="button" id="github" target="_blank">Github</a>
+        <a href="https://www.linkedin.com/in/emilioaurea" class="btn btn-info" role="button" id="linkedin" target="_blank">LinkedIn</a>
+        <a href="http://aap.berkeley.edu/career-transition/sage-scholars-program/sage-scholars" class="btn btn-info" role="button" id="sage scholars" target="_blank">SAGE Scholars</a>
+      </div>
+    </div>
+  </div>
   </footer>
 </div>
 </body>
