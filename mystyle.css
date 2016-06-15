@@ -10,3 +10,42 @@ container-fluid {
     margin-left: 1000px;
     margin-right: 1000px;
 }
+
+/* Style for the navbar. */
+.navbar {
+	background-color: #77C9D4;
+}
+.navlink {
+	color: white
+}
+
+/* Adjust picture. */
+#emilio_and_jace {
+	height: 400px;
+	width: 360px;
+	margin-top: 75px;
+	margin-bottom: 25px;
+}
+
+/* Color about me. */
+#about-me {
+	background-color: #57BC90;
+}
+
+/* Color for portfolio. */
+#portfolio {
+	background-color: #015249;
+	color: #A5A5AF;
+}
+
+/* For all thumnails. */
+.thumnail {
+	padding: 30px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+/* For contact section. */
+#contact {
+	background-color: #A5A5AF;
+}
